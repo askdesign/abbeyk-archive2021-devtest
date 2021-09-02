@@ -18,7 +18,7 @@
 
 
 
-<footer  <?php post_class(footer); ?> id="post-<?php the_ID(); ?>">
+<footer  <?php post_class('footer'); ?> id="post-<?php the_ID(); ?>">
 
 
 
@@ -26,7 +26,7 @@
 
 
 
-    <div  <?php post_class(container); ?>>
+    <div  <?php post_class('container'); ?>>
 
 
 
@@ -186,7 +186,7 @@ document.write(year);
 
 
 
-    <div id="post-<?php the_ID(); ?>"  <?php post_class(container); ?>>
+    <div id="post-<?php the_ID(); ?>"  <?php post_class('container'); ?>>
 
 
 
