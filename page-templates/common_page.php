@@ -14,13 +14,13 @@
 
 <!-- .site-main -->
 
-<main id="main_inner" <?php post_class(site-main); ?> role="main">
+<main id="main_inner" <?php post_class('site-main'); ?> role="main">
 
-<div  id="post-<?php the_ID(); ?>" <?php post_class(inner_wrapper); ?>>
+<div  id="post-<?php the_ID(); ?>" <?php post_class('inner_wrapper'); ?>>
 
-<div  id="post-<?php the_ID(); ?>" <?php post_class(container); ?>>
+<div  id="post-<?php the_ID(); ?>" <?php post_class('container'); ?>>
 
-	<div  id="post-<?php the_ID(); ?>" <?php post_class(common_pan); ?>>
+	<div  id="post-<?php the_ID(); ?>" <?php post_class('common_pan'); ?>>
 
     	<!-- aside -->
 
