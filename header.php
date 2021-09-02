@@ -55,7 +55,7 @@
 
 <!--// header Start //-->
 
-<header <?php post_class('header'); ?> id="post-<?php the_ID(); ?>">
+<header <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 
 
