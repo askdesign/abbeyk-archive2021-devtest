@@ -61,7 +61,7 @@
 
 <hgroup>
 
-<div <?php post_class(container); ?>  id="post-<?php the_ID(); ?>">
+<div <?php post_class('container'); ?>  id="post-<?php the_ID(); ?>">
 
 
 
@@ -69,7 +69,7 @@
 
         
 
-            <nav <?php post_class(for_mobile_nav); ?>  id="post-<?php the_ID(); ?>" >
+            <nav <?php post_class('for_mobile_nav'); ?>  id="post-<?php the_ID(); ?>" >
 
                 <div id="mobile-nav-trigger" >
 
@@ -133,7 +133,7 @@
 
         
 
-            <nav  <?php post_class(for_nav); ?> id="post-<?php the_ID(); ?>">
+            <nav  <?php post_class('for_nav'); ?> id="post-<?php the_ID(); ?>">
 
             	<?php if ( has_nav_menu( 'headernav' ) ) : ?>
 
@@ -175,7 +175,7 @@
 
 <?php if ( is_front_page() ) { ?> 
 
-<div   <?php post_class(container); ?>>
+<div   <?php post_class('container'); ?>>
 
  <!--// banner //-->
 
