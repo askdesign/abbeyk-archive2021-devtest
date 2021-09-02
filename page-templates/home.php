@@ -16,11 +16,11 @@ get_header(); ?>
 
 <!-- .site-main -->
 
-<main id="main<?php the_ID(); ?>"  role="main" <?php post_class(site-main); ?>>
+<main id="main<?php the_ID(); ?>"  role="main" <?php post_class('site-main'); ?>>
 
 
 
-<div <?php post_class(container); ?>>
+<div <?php post_class('container'); ?>>
 
 
 
@@ -28,7 +28,7 @@ get_header(); ?>
 
 
 
-<div <?php post_class(body_top); ?>>
+<div <?php post_class('body_top'); ?>>
 
 
 
@@ -68,7 +68,7 @@ get_header(); ?>
 
 <!--// AbbeyK on TV //-->
 
-<div  <?php post_class(abbeyk_tv); ?>>
+<div  <?php post_class('abbeyk_tv'); ?>>
 
 <?php
 
@@ -128,7 +128,7 @@ setup_postdata($post);
 
 <!-- article -->
 
-<div  <?php post_class(article_pan); ?>>
+<div  <?php post_class('article_pan'); ?>>
 
 <?php
 
@@ -218,7 +218,7 @@ setup_postdata($post);
 
 <!-- // Testimonials // -->
 
-<div  <?php post_class(testimonials); ?>>
+<div  <?php post_class('testimonials'); ?>>
 
 <?php
 
@@ -322,7 +322,7 @@ setup_postdata($post);
 
 <!-- // blog_projects_twitter // -->
 
-<div <?php post_class(blog_projects_twitter); ?>>
+<div <?php post_class('blog_projects_twitter'); ?>>
 
 	
 
@@ -330,7 +330,7 @@ setup_postdata($post);
 
     <!-- // Blog and Current Projects //-->
 
-    <div  <?php post_class(blog_projects); ?>>
+    <div  <?php post_class('blog_projects'); ?>>
 
     
 
