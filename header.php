@@ -61,9 +61,7 @@
 
 <hgroup>
 
-<div <?php post_class('container'); ?>  id="post-<?php the_ID(); ?>">
-
-
+<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 		 <!--// nav //-->
 
@@ -232,7 +230,7 @@
                 } else if ( get_query_var('page') ) {
                     $paged = get_query_var('page');
                 } else {
-                    $paged = 1;
+                    $paged = "1";
                 } ?>
                     <?php
                     $args= array(
