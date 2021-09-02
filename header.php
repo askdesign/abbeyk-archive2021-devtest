@@ -55,19 +55,21 @@
 
 <!--// header Start //-->
 
-<header <?php post_class() ?> id="post-<?php the_ID(); ?>">
+<header <?php post_class('header'); ?> id="post-<?php the_ID(); ?>">
 
 
 
 <hgroup>
 
-<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+<div <?php post_class('container'); ?> id="post-<?php the_ID(); ?>">
+
+
 
 		 <!--// nav //-->
 
         
 
-            <nav <?php post_class('for_mobile_nav'); ?>  id="post-<?php the_ID(); ?>" >
+            <nav <?php post_class('for_mobile_nav'); ?> id="post-<?php the_ID(); ?>" >
 
                 <div id="mobile-nav-trigger" >
 
@@ -179,7 +181,7 @@
 
     <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-    	<figure id="post-<?php the_ID(); ?>" <?php post_class(banner_slider); ?>>
+    	<figure id="post-<?php the_ID(); ?>" <?php post_class('banner_slider'); ?>>
 
             <?php echo do_shortcode('[metaslider id="1267"]'); ?>
         </figure>
